@@ -1,0 +1,864 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 13,
+        "name": "validate the login functionality",
+        "description": "",
+        "id": "orangehrm-website;validate-the-login-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8811921700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I launched OrangeHRM website",
+            "match": {
+              "location": "DEF_LOGIN.i_launched_OrangeHRM_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1260582700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter the \"Admin\" and \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 13
+                },
+                {
+                  "val": "admin123",
+                  "offset": 25
+                }
+              ],
+              "location": "DEF_LOGIN.i_enter_the_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4115483300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click the login button",
+            "match": {
+              "location": "DEF_LOGIN.i_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 727113700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on Home page",
+            "match": {
+              "location": "DEF_LOGIN.i_am_on_Home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@tc_00_login"
+          },
+          {
+            "line": 1,
+            "name": "@orangeHRM"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "validate the login functionality",
+        "description": "",
+        "id": "orangehrm-website;validate-the-login-functionality;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6111139400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I launched OrangeHRM website",
+            "match": {
+              "location": "DEF_LOGIN.i_launched_OrangeHRM_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1057825500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter the \"admin\" and \"Admin124\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 13
+                },
+                {
+                  "val": "Admin124",
+                  "offset": 25
+                }
+              ],
+              "location": "DEF_LOGIN.i_enter_the_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1466707600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click the login button",
+            "match": {
+              "location": "DEF_LOGIN.i_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 723483000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on Home page",
+            "match": {
+              "location": "DEF_LOGIN.i_am_on_Home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@tc_00_login"
+          },
+          {
+            "line": 1,
+            "name": "@orangeHRM"
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "validate the login functionality",
+        "description": "",
+        "id": "orangehrm-website;validate-the-login-functionality;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6540358400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I launched OrangeHRM website",
+            "match": {
+              "location": "DEF_LOGIN.i_launched_OrangeHRM_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1117950800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter the \"harsha\" and \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "harsha",
+                  "offset": 13
+                },
+                {
+                  "val": "admin123",
+                  "offset": 26
+                }
+              ],
+              "location": "DEF_LOGIN.i_enter_the_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1108950000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click the login button",
+            "match": {
+              "location": "DEF_LOGIN.i_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 829401500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on Home page",
+            "match": {
+              "location": "DEF_LOGIN.i_am_on_Home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@tc_00_login"
+          },
+          {
+            "line": 1,
+            "name": "@orangeHRM"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Logout",
+        "description": "",
+        "id": "orangehrm-website;logout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6142896400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I am logged in on the site",
+            "match": {
+              "location": "DEF_LOGOUT.i_am_logged_in_on_the_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5560056100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click the Log out button",
+            "match": {
+              "location": "DEF_LOGOUT.i_click_the_Log_out_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 972826800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I go back to my login page",
+            "match": {
+              "location": "DEF_LOGOUT.i_go_back_to_my_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@tc_00_logout"
+          }
+        ]
+      },
+      {
+        "line": 35,
+        "name": "ADD PIM Report",
+        "description": "",
+        "id": "orangehrm-website;add-pim-report;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6195291800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I Logged in to the website using",
+            "match": {
+              "location": "DEF_PIM.i_Logged_in_to_the_website_using()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2537896600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click on PIM \"Admin\" and \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 16
+                },
+                {
+                  "val": "admin123",
+                  "offset": 28
+                }
+              ],
+              "location": "DEF_PIM.i_click_on_PIM_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4357902000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click on Report",
+            "match": {
+              "location": "DEF_PIM.i_click_on_Report()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1464249600,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I click on ADD report",
+            "match": {
+              "location": "DEF_PIM.i_click_on_ADD_report()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 641645000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I enter the details of the report \"PIM report\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PIM report",
+                  "offset": 35
+                }
+              ],
+              "location": "DEF_PIM.i_enter_the_details_of_the_report(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1607216100,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I click save",
+            "match": {
+              "location": "DEF_PIM.i_click_save()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2885296600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I find Report Successfully added \"PIM report\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PIM report",
+                  "offset": 34
+                }
+              ],
+              "location": "DEF_PIM.i_find_Report_Successfully_added(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@tc_01_ADD_PIM_Report"
+          },
+          {
+            "line": 1,
+            "name": "@orangeHRM"
+          }
+        ]
+      },
+      {
+        "line": 48,
+        "name": "delete PIM Report",
+        "description": "",
+        "id": "orangehrm-website;delete-pim-report;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7571394800,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I have Log in to the website",
+            "match": {
+              "location": "DEF_PIM_DEL.i_have_Log_in_to_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2289961100,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I clicked on PIM  \"Admin\" and \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 19
+                },
+                {
+                  "val": "admin123",
+                  "offset": 31
+                }
+              ],
+              "location": "DEF_PIM_DEL.i_clicked_on_PIM_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3065875600,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I clicked on Report",
+            "match": {
+              "location": "DEF_PIM_DEL.i_clicked_on_Report()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 938158200,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I select a project \"PIM report\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PIM report",
+                  "offset": 20
+                }
+              ],
+              "location": "DEF_PIM_DEL.i_select_a_project(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1683124000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I click delete button",
+            "match": {
+              "location": "DEF_PIM_DEL.i_click_delete_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3019551900,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I find report successfully deleted \"PIM report\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PIM report",
+                  "offset": 36
+                }
+              ],
+              "location": "DEF_PIM_DEL.i_find_report_successfully_deleted(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 37,
+            "name": "@tc_02_delete_PIM_Report"
+          },
+          {
+            "line": 1,
+            "name": "@orangeHRM"
+          }
+        ]
+      },
+      {
+        "line": 61,
+        "name": "Assign leave",
+        "description": "",
+        "id": "orangehrm-website;assign-leave;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5966946800,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I have Log in to the website",
+            "match": {
+              "location": "DEF_PIM_DEL.i_have_Log_in_to_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2355881100,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I click on Leave \"Admin\" and \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 18
+                },
+                {
+                  "val": "admin123",
+                  "offset": 30
+                }
+              ],
+              "location": "DEF_LEAVE.i_click_on_Leave_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3489683900,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I click on Assign Leave",
+            "match": {
+              "location": "DEF_LEAVE.i_click_on_Assign_Leave()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1581031100,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I enter the details \"Linda Anderson\" \"Vacation US\" \"2020-04-15\" \"2020-04-15\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Linda Anderson",
+                  "offset": 21
+                },
+                {
+                  "val": "Vacation US",
+                  "offset": 38
+                },
+                {
+                  "val": "2020-04-15",
+                  "offset": 52
+                },
+                {
+                  "val": "2020-04-15",
+                  "offset": 65
+                }
+              ],
+              "location": "DEF_LEAVE.i_enter_the_details(String,String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4,
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 208874500,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I click Save button",
+            "match": {
+              "location": "DEF_LEAVE.i_click_Save_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4582894100,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I find the of employee leave in leave report \"Linda Anderson\" ,\"2020-04-15\", \"2020-04-15\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Linda Anderson",
+                  "offset": 46
+                },
+                {
+                  "val": "2020-04-15",
+                  "offset": 64
+                },
+                {
+                  "val": "2020-04-15",
+                  "offset": 78
+                }
+              ],
+              "location": "DEF_LEAVE.i_find_the_of_employee_leave_in_leave_report(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              4,
+              5
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 50,
+            "name": "@tc_03_Assign_Leave_and_Search_for_assigned_leave"
+          },
+          {
+            "line": 1,
+            "name": "@orangeHRM"
+          }
+        ]
+      },
+      {
+        "line": 76,
+        "name": "Edit organisation name",
+        "description": "",
+        "id": "orangehrm-website;edit-organisation-name;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5774289800,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I have Log in to the website",
+            "match": {
+              "location": "DEF_PIM_DEL.i_have_Log_in_to_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6425725800,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I clicked Admin \"Admin\" and \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 17
+                },
+                {
+                  "val": "admin123",
+                  "offset": 29
+                }
+              ],
+              "location": "DEF_ADMIN.i_clicked_Admin_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 174752400,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I clicked organisation",
+            "match": {
+              "location": "DEF_ADMIN.i_clicked_organisation()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 881720700,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I clicked General Info",
+            "match": {
+              "location": "DEF_ADMIN.i_clicked_General_Info()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 156244200,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I Clicked edit",
+            "match": {
+              "location": "DEF_ADMIN.i_Clicked_edit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 371015600,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I change the organisation name \"Harsha Solutions\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Harsha Solutions",
+                  "offset": 32
+                }
+              ],
+              "location": "DEF_ADMIN.i_change_the_organisation_name(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 890402700,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "I click save button",
+            "match": {
+              "location": "DEF_ADMIN.i_click_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1349443800,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "I find the organisation name successfully changed",
+            "match": {
+              "location": "DEF_ADMIN.i_find_the_organisation_name_successfully_changed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 63,
+            "name": "@tc_04_Edit_organisation_name_and_verify_the_changes"
+          },
+          {
+            "line": 1,
+            "name": "@orangeHRM"
+          }
+        ]
+      }
+    ],
+    "name": "orangeHrm website",
+    "description": "",
+    "id": "orangehrm-website",
+    "keyword": "Feature",
+    "uri": "H:/eclipsejava/CTS_ORANGEHRM/src/test/resources/features/tEstcase.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@orangeHRM"
+      }
+    ]
+  }
+]
